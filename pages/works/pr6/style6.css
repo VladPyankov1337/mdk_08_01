@@ -1,0 +1,60 @@
+.top
+{
+position: fixed;
+bottom: 10px;
+right: 10px;
+background: rgba(37, 133, 37, 0.3);
+padding: 10px;
+}
+body {
+    background-color: rgb(252, 102, 192);
+    font-family: "Gangshrift";
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  header a{
+    color: white;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  ul li{
+    display: inline-block;
+  }
+  img {
+    width: 400px;
+  }
+
+  ul{
+    background: rgb(218, 75, 218);
+    
+  }
+  li{
+    padding: 5 px;
+  }
+  
+  .container{
+    display: flex;
+  }
+  .container main{
+    width: 40%;
+  }
+  .container aside{
+    width: 30%;
+  }
