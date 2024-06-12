@@ -1,0 +1,22 @@
+.logo {
+    height: 150px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.gang {
+ width: 60%;
+ margin:0 auto;
+}
+.osnova {
+border: 2px solid rgb(179, 37, 37);
+margin-bottom: 20px;
+font-size: 25px;
+}
+.podrobnee {
+    text-align: right;
+}
+@font-face {
+    font-family: "Gangshrift";
+    src: url(../../../font/Oswald-VariableFont_wght.ttf);
+  }

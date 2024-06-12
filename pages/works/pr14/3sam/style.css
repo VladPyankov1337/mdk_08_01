@@ -1,0 +1,19 @@
+@keyframes slide{
+    0%{
+        left: 0;
+    
+    }
+    100%{
+        left: 300px;
+    }
+    
+    }
+    .box {
+        background: #2db34a;
+        cursor: pointer;
+        height: 95px;
+        position: relative;
+        width: 95px;
+        animation: slide  2s forwards;
+    }
+    

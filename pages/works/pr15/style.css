@@ -1,0 +1,83 @@
+body{
+    font-family: "shrift";
+}
+
+@font-face {
+    font-family: "shrift";
+    src: url(../../../font/AlumniSans-VariableFont_wght.ttf);
+  }
+  
+
+
+.gang{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 2px 8px;
+    margin:0 auto;
+    width: 60%;
+    justify-content: center;
+}
+
+h1{
+    display: flex; 
+    justify-content: center;
+    font-size: 48px;
+}
+
+.text {
+    font-size:x-large;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+footer {
+ text-align: center;
+ padding-top: 5%;
+ font-size: 24px;
+ color: gray;
+}
+
+.cat1{
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.cat2{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.cat3{
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+
+.cat1 img {
+    width: 489px;
+    height: 608px;
+}
+
+.cat2 img {
+    width: 405px;
+    height: 300px;
+}
+
+.cat3 img{
+
+    width: 405px;
+    height: 300px;
+}
+
+.cat4 img{
+
+    width: 405px;
+    height: 293px;
+}
+
+.cat5 img {
+    width: 405px;
+    height: 293px;
+}
+
+
+

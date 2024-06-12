@@ -1,0 +1,64 @@
+.p1{
+    text-align: center;
+}
+.p2 {
+   text-indent: 20px;
+}
+.p3 {
+    line-height: 20px;
+}
+.p4 {
+    vertical-align: baseline;
+}
+.p5 {
+  word-spacing: 2px;
+
+}
+.p6 {
+letter-spacing: 2px;
+}
+.p7 {
+   white-space: nowrap;
+}
+.p8 {
+tab-size: inherit;
+}
+.p9 {
+text-transform: capitalize;
+}
+.p10 {
+direction: rtl;
+}
+.p11 {
+    vertical-align: super;
+}
+.p12 {
+unicode-bidi: normal;
+}
+.p13 {
+text-decoration: underline;   
+}
+.p14 {
+quotes: initial;
+}
+.p15 {
+font-family: initial;    
+}
+.p16 {
+font-style: italic;    
+}
+.p17 {
+font-variant: small-caps;    
+}
+.p18 {
+font-weight: bold;    
+}
+.p19 {
+font-size:smaller;    
+}
+.p20 {
+color: rgb(red, green, blue);    
+}
+.p21 {
+    line-clamp: 20px;   
+}

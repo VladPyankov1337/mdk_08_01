@@ -1,0 +1,79 @@
+
+ .line li {
+     display:  inline-block;
+     background-color: rgb(253, 211, 231);
+     padding: 20px;
+     margin: 5px;
+     
+ }
+ .links a {
+     display: block;
+     background-color: blue;
+     color:white;
+     margin-bottom:7px;
+     width: 10%;
+     padding: 7px;
+     text-decoration: none;
+ }
+ .blocks {
+    margin: 30px;
+    padding: 10px;
+
+ }
+ .blocks div {
+    
+     display: inline;
+     background-color: red; 
+     margin-right: 15px;
+     padding: 15px;
+       
+ }
+ 
+  div.non {
+    display: none;
+  } 
+
+ .links-markers {
+    padding: 5px;
+
+ }
+ 
+ .links-markers a {
+    display: list-item;
+    background-color: black;
+     color: white;
+     display: list-item;
+     text-decoration: underline;
+     width: 10%;
+ 
+ }
+ 
+ .post1 .image {
+     float: inline-start;
+     content: url(../pr9/img/weather-blizzard.jpg);
+     border:  dashed gold;
+    position: relative;
+ }
+ 
+ .post2 .image {
+     float: inline-end;
+     content: url(../pr9/img/weather-blizzard.jpg);
+     border: dashed gold;
+ }
+ 
+ .post1 {
+     color: white;
+     background-color: red;
+     padding-bottom: 15px;
+    
+ }
+ 
+ .post2 {
+     color: white;
+     background-color:red;
+     padding-bottom: 15px;
+    
+ }
+ 
+ 
+ 

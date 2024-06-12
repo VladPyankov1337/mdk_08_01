@@ -1,0 +1,45 @@
+.container1{
+    height: 225px;
+    padding: 0px 30px;
+    margin: auto;
+}
+
+.icons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid orange;
+    width:100px ;
+    height: 80px;
+}
+.photo{
+    padding: 10px 100px;
+    width: 300px;
+    height: 250px;
+}
+main{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+.menu1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+}
+.menu2{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    padding: 2px 20px;
+}
+.text {
+    font-size: larger;
+    width: 400;
+}
+p {
+    width: 400px;
+}

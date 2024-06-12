@@ -9,6 +9,7 @@ padding: 10px;
 body {
     background-color: rgb(253, 176, 249);
     font-family: "Gangshrift";
+    
   }
   a {
     text-decoration: none;
@@ -20,10 +21,13 @@ body {
   
   h1 {
     font-size: 24px;
+    text-align: center;
   }
   
   h2 {
     font-size: 20px;
+    
+    
   }
   
   h3 {
@@ -40,21 +44,20 @@ body {
 
   ul{
     background: rgb(218, 75, 218);
+    text-align: center;
+    list-style-type: none;
     
   }
   li{
     padding: 5 px;
+    text-align: center;
+  
+  }
+  ol {
+    list-style-type: none;
   }
   
-  .container{
-    display: flex;
-  }
-  .container main{
-    width: 40%;
-  }
-  .container aside{
-    width: 30%;
-  }
+  
   @font-face {
     font-family: "Gangshrift";
     src: url(../font/Oswald-VariableFont_wght.ttf);
@@ -63,69 +66,37 @@ body {
   {
    width:auto;
   }
-  
-.p1{
-      text-align: center;
-  }
-  .p2 {
-     text-indent: 20px;
-  }
-  .p3 {
-      line-height: 20px;
-  }
-  .p4 {
-      vertical-align: baseline;
-  }
-  .p5 {
-    word-spacing: 2px;
+  .photo {
+    width: 150px;
+    height: 300px;
 
   }
-  .p6 {
- letter-spacing: 2px;
-  }
-  .p7 {
-     white-space: nowrap;
-  }
-  .p8 {
- tab-size: inherit;
-  }
-  .p9 {
- text-transform: capitalize;
-  }
-  .p10 {
- direction: rtl;
-  }
-  .p11 {
+  .sekas {
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 30px;
+    justify-content: center;
+    display: flex;
 
   }
-  .p12 {
-
+  .navik {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
   }
-  .p13 {
+.dei {
+  display: flex;
+  justify-content: center;
+  gap: 365px;
+}
 
-  }
-  .p14 {
-
-  }
-  .p15 {
-
-  }
-  .p16 {
-
-  }
-  .p17 {
-
-  }
-  .p18 {
-
-  }
-  .p19 {
-
-  }
-  .p20 {
-
-  }
-  .p21 {
-
-  }
-
+.containerg{
+  display: flex;
+}
+.containerg main{
+  width: 70%;
+}
+.containerg aside{
+  width: 30%;
+}
+ 

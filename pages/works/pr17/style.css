@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+    width: 50%;
+  }
+
+header {
+    background: url(img/fon.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .menu{
+    padding: 40PX;
+    }
+    .lupa{
+      padding: 0px 50px 20px 0px;
+    }
+    .women{
+      padding: 0px 15px 0px 0px;
+    }
+    
+  h1{
+    padding: 0px 0px 0px 40px;
+    color: aliceblue;
+    font-size: 60px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text {
+    display: flex;
+    gap: 5%;
+    color: aliceblue;
+    padding: 0px 0px 0px 0px;
+  }
+  p {
+    font-size: 35px;
+    margin: 0%;
+  }
+.line li {
+    display:  inline-block;
+    background-color: lightgray;
+    padding: 40px;
+
+    
+}
+.container3 {
+   display: grid;
+   grid-template-columns: 0.3fr 1fr 1fr;
+   grid-template-rows: 1fr
+   
+   
+}
+
+.znachki {
+margin-left: auto;
+padding: 30px 30px 0px 0px;
+}
+.container2 {
+    display: flex;
+    gap: 74px;
+    font-size: 40px;
+    background-color: lightblue;
+    padding: 5px;
+}
+.c12 {
+    background-color:purple;
+}
+.time {
+    padding: 15px 0px 20px 20px;
+    background-color: lightgray;
+    margin: 5px 0px 5px 20px;
+}
+.zadachi {
+    padding: 0px 0px 0px 60px;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+}

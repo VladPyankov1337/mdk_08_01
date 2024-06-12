@@ -1,0 +1,16 @@
+button {
+
+    padding: 1rem 2rem;
+    background: #00a7cf;
+    color: #fff;
+    border: none;
+}
+button:hover {
+    transition: 1s;
+    transform: scale(2,2);
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
